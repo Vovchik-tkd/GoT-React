@@ -47,7 +47,7 @@ export default class GotService {
             culture: char.culture
         }
         for (let key in character) {
-            if (character[key] == '') {
+            if (character[key] === '') {
                 character[key] = '-';
             }
         }
